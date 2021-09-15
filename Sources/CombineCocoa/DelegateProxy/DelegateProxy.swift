@@ -6,7 +6,6 @@
 //  Copyright © 2020 Combine Community. All rights reserved.
 //
 
-#if canImport(Combine)
 import Foundation
 import Combine
 
@@ -51,4 +50,3 @@ open class DelegateProxy: ObjcDelegateProxy {
         subscribers = []
     }
 }
-#endif

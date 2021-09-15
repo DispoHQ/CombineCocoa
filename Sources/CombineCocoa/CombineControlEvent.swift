@@ -6,7 +6,6 @@
 //  Copyright © 2020 Combine Community. All rights reserved.
 //
 
-#if canImport(Combine)
 import Combine
 import Foundation
 import UIKit.UIControl
@@ -71,4 +70,3 @@ extension Combine.Publishers.ControlEvent {
         }
     }
 }
-#endif

@@ -6,7 +6,6 @@
 //  Copyright © 2020 Combine Community. All rights reserved.
 //
 
-#if canImport(Combine)
 import Combine
 import UIKit
 
@@ -84,4 +83,3 @@ private func gesturePublisher<Gesture: UIGestureRecognizer>(for gesture: Gesture
               .map { gesture }
               .eraseToAnyPublisher()
 }
-#endif

@@ -6,7 +6,6 @@
 //  Copyright © 2020 Combine Community. All rights reserved.
 //
 
-#if canImport(Combine)
 import UIKit
 import Combine
 
@@ -51,5 +50,4 @@ private class UISearchBarDelegateProxy: DelegateProxy, UISearchBarDelegate, Dele
         object.delegate = self
     }
 }
-#endif
 // swiftlint:enable force_cast

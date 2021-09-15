@@ -6,7 +6,6 @@
 //  Copyright © 2020 Combine Community. All rights reserved.
 //
 
-#if canImport(Combine)
 import UIKit
 import Combine
 
@@ -40,4 +39,3 @@ private class NSTextStorageDelegateProxy: DelegateProxy, NSTextStorageDelegate, 
     object.delegate = self
   }
 }
-#endif

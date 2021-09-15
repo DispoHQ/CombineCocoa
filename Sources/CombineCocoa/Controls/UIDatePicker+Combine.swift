@@ -6,7 +6,6 @@
 //  Copyright © 2020 Combine Community. All rights reserved.
 //
 
-#if canImport(Combine)
 import Combine
 import UIKit
 
@@ -24,4 +23,3 @@ public extension UIDatePicker {
                   .eraseToAnyPublisher()
     }
 }
-#endif

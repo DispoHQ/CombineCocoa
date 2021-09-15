@@ -8,7 +8,6 @@
 
 import Foundation
 
-#if canImport(UIKit) && canImport(Combine)
 import Combine
 import UIKit
 
@@ -99,4 +98,3 @@ public extension Publisher where Self.Failure == Never {
             .sink { _ in }
     }
 }
-#endif

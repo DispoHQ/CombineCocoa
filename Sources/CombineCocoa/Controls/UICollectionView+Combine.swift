@@ -6,7 +6,6 @@
 //  Copyright © 2020 Combine Community. All rights reserved.
 //
 
-#if canImport(UIKit) && canImport(Combine)
 import Foundation
 import UIKit
 import Combine
@@ -89,5 +88,4 @@ private class CollectionViewDelegateProxy: DelegateProxy, UICollectionViewDelega
         object.delegate = self
     }
 }
-#endif
 // swiftlint:enable force_cast

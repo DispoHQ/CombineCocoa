@@ -6,7 +6,6 @@
 //  Copyright © 2020 Combine Community. All rights reserved.
 //
 
-#if canImport(UIKit) && canImport(Combine)
 import Foundation
 import UIKit
 import Combine
@@ -129,5 +128,4 @@ private class TableViewDelegateProxy: DelegateProxy, UITableViewDelegate, Delega
         object.delegate = self
     }
 }
-#endif
 // swiftlint:enable force_cast
